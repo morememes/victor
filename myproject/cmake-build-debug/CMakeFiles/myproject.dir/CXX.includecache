@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/morememes/CLionProjects/myproject/main.cpp
+iostream
+-
+random
+-
+algorithm
+-
+fstream
+-
+victor.h
+/home/morememes/CLionProjects/myproject/victor.h
+
+/home/morememes/CLionProjects/myproject/victor.cpp
+victor.h
+/home/morememes/CLionProjects/myproject/victor.h
+
+/home/morememes/CLionProjects/myproject/victor.h
+victor.cpp
+/home/morememes/CLionProjects/myproject/victor.cpp
+
